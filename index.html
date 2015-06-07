@@ -1,0 +1,13 @@
+---
+layout: page
+title: Latest Posts
+permalink: /
+excerpt: "A simple and clean responsive Jekyll theme for words and photos."
+search_omit: true
+---
+
+<div class="tiles">
+{% for post in site.posts %}
+	{% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->

@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Latest Posts
+  url: /articles/
+
+- title: About Elanor
+  url: http://elanor.community
+
+- title: Ela Conf
+  url: http://elaconf.com
+
+- title: Write for Us
+  url: /submit/
+
+- title: Search
+  url: /search/
