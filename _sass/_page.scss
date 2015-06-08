@@ -13,8 +13,13 @@
 .entry,
 .hentry {
 	@include clearfix;
+	border-top: 5px solid $medium-blue;
 	border-bottom: 1px solid lighten($black,80);
 	border-bottom: 1px solid rgba($black,.10);
+}
+
+#post .hentry {
+	border-top: 2px solid rgba($medium-blue, .7)
 }
 
 /* feature image */
@@ -33,7 +38,7 @@
 
 .entry-tags {
 	display: block;
-	margin-top: 2em;
+	padding-top: 2em;
 	text-transform: uppercase;
 	@include font-size(16);
 	font-weight: 600;

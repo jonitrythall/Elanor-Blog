@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  background-color: $medium-blue;
+  background-color: $bright-blue;
   @include clearfix;
   @include media($medium) {
     margin-top: 0;
@@ -33,7 +33,7 @@
   margin-bottom: 20px;
   margin-top:0;
   a {
-    color: $white;
+    color: $medium-blue;
   }
 }
 

@@ -25,6 +25,9 @@
     @include media($medium) {
       margin-top:50px;
     }
+    a {
+      color:$black;
+    }
   }
   .post-excerpt {
     @include font-size(16);
